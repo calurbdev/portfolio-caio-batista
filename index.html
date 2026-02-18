@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caio Batista - Front-end e Back-end Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <div class="nav__logo">
+        <i class="fa-solid fa-code" style="color: var(--primary); font-size: 1.5rem;"></i>
+      </div>
+      <div class="nav__links">
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#carreira">Carreira</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="nav__actions">
+        <a href="https://drive.google.com/file/d/1ilVOpW8vR75pgySMn_Denz55eaL4KiHe/view?usp=sharing" class="btn-link">Baixar CV <i class="fa-solid fa-download"></i></a>
+        <a href="https://t.me/clrbatista#" class="btn-outline"><i class="fa-brands fa-telegram"></i> Vamos conversar</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero__text">
+        <span class="badge">O inicio</span>
+        <h1>Caio<br>Batista</h1>
+        <p>Front-end developer | Back-end developer</p>
+        <div class="hero__socials">
+          <a href="https://www.linkedin.com/in/caio-lucas-batista/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/calurbdev"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="imagens/ilustracao.png" alt="Ilustração Caio Batista">
+      </div>
+    </section>
+
+    <section class="stats container">
+      <div class="stat-card">
+        <div class="stat-card__icon"><i class="fa-solid fa-code"></i></div>
+        <span>5 anos como</span>
+        <h3>Programador</h3>
+        <p>Desenvolvedor Freelancer Front-end e Back-end</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon"><i class="fa-solid fa-border-all"></i></div>
+        <span>8 anos de</span>
+        <h3>Trabalhos</h3>
+        <p>Alguns projetos e Experiências</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__icon"><i class="fa-solid fa-desktop"></i></div>
+        <span>9 anos como</span>
+        <h3>Técnico/Analista de TI</h3>
+        <p>TRE, Defensoria, Nova Engevix e TJMA</p>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="sobre" class="about container">
+      <div class="about__image">
+        <img src="imagens/caio.png" alt="Foto de Caio">
+      </div>
+      <div class="about__text">
+        <span class="badge">Sobre mim</span>
+        <h2>Caio Lucas<br>Rodrigues Batista</h2>
+        <ul class="about__list">
+          <li>Meu nome é Caio Lucas Rodrigues Batista, mas pode me chamar apenas de Caio. Prazer!</li>
+          <li>Fazem alguns anos que desenvolvo e programo interfaces com Flutter, Python e Typescript.</li>
+          <li>Graduado em Ciências da Computação.</li>
+          <li>Entusiasta em desenvolvimento Front-end e Back-end com Python e Dart no framework Flutter.</li>
+          <li>Sempre tentando melhorar através dos projetos e novos desafíos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="portfolio" class="projects container">
+      <div class="projects__header">
+        <div>
+          <span class="badge">Portfolio</span>
+          <h2>Trabalhos e projetos</h2>
+        </div>
+        <div class="projects__filters">
+          
+          <button class="btn-filter active">Sistemas Desenvolvidos</button>
+          
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <div class="card">
+          <div class="card__content">
+            <h3>Guia Gestacional</h3>
+            <p>Aplicação feita no framework Flutter para o sistema operacional android</p>
+            <div class="card__tags">
+              <span class="tag tag">.Json</span>
+              <span class="tag">Flutter</span>
+            </div>
+          </div>
+          <div class="card__image"><img src="imagens/img01.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Diário do Pet</h3>
+            <p>Aplicação desenvolvido em Flutter para contrlo de informações de animal de estimação.</p>
+            <div class="card__tags"><span class="tag">React JS</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img04.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Diário do Bebê</h3>
+            <p>Aplicação desenvolvida em Flutter para organização e controlhe referente a cuidados e memórias do Bebê</p>
+            <div class="card__tags"><span class="tag">React JS</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img03.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Gerador d PDF - POP</h3>
+            <p>Aplicação desenvolvida em Flutter para facilitar a geração de Processos Organizacionais.</p>
+            <div class="card__tags"><span class="tag">React JS</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img05.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Sistema de Estoque Hembra</h3>
+            <p>Sistema de estoque desenvolvido em Flutter para controlhe de estoque da empresa Hembra</p>
+            <div class="card__tags"><span class="tag">Flutter</span><span class="tag">.Json</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img06.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Loja virtual Hembra</h3>
+            <p>Aplicação desenvolvida em Flutter para facilitar a geração de Processos Organizacionais.</p>
+            <div class="card__tags"><span class="tag">Flutter</span><span class="tag">Dart</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img02.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Sistema de presenças</h3>
+            <p>Aplicação desenvolvida em Flutter para controlhe de presença de alunos.</p>
+            <div class="card__tags"><span class="tag">Flutter</span><span class="tag">Dart</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img02.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Chatboot no Telegram</h3>
+            <p>ChatBot desenvolvido em Python integrado ao Telegram. Foi configurado para atendimento e suporte de TI para os servidores da DPEMA.</p>
+            <div class="card__tags"><span class="tag">Python</span><span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img02.png" alt="Move.it Preview"></div>
+        </div>
+
+
+        <div class="card">
+          <div class="card__content">
+            <h3>Chatbot de Atendimento para Pequenos Negócios</h3>
+            <p>Sistema desenvolvido em Python que utiliza IA generativa (LLMs) para responder automaticamente às dúvidas de clientes com base em FAQs e documentos da empresa.Permite atendimento rápido, personalizado, com intuito de reduzir custos operacionais.</p>
+            <div class="card__tags"><span class="tag">Python</span><span class="tag">IA generativa (LLMs)</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img10.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Assistente de Resumos Inteligentes</h3>
+            <p>Aplicação em Python que usa IA generativa (LLMs) para transformar textos, PDFs ou artigos em resumos claros e objetivos. Gera tópicos principais, insights e perguntas de revisão de forma automática.</p>
+            <div class="card__tags"><span class="tag">Python</span><span class="tag">IA generativa (LLMs)</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img11.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Organizador Inteligente de Tarefas</h3>
+            <p>Sistema desenvolvido em Python com suporte de IA generativa (LLMs) para organizar listas de tarefas por prioridade e prazo. Sugere cronogramas semanais e otimiza a produtividade de forma personalizada.</p>
+            <div class="card__tags"><span class="tag">Python</span><span class="tag">IA generativa (LLMs)</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img12.png" alt="Move.it Preview"></div>
+        </div>
+        <div class="card">
+          <div class="card__content">
+            <h3>Gerador de Plano de Estudos Personalizado</h3>
+            <p>Aplicação em Python que utiliza IA generativa (LLMs) para criar cronogramas de estudo personalizados com base nos objetivos e disponibilidade do usuário. Inclui divisão por disciplinas, metas semanais e sugestões de revisão.</p>
+            <div class="card__tags"><span class="tag">Python</span><span class="tag">IA generativa (LLMs)</span><span class="tag">Typescript</span></div>
+          </div>
+          <div class="card__image"><img src="imagens/img13.png" alt="Move.it Preview"></div>
+        </div>
+
+      </div>
+      
+     
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="skills" class="skills container">
+      <div class="section-header center">
+        <span class="badge">Skills · Experiências</span>
+        <h2>Tecnologias e habilidades</h2>
+      </div>
+
+      <div class="skills__block">
+        <p class="subtitle">Techs que uso no dia a dia</p>
+        <div class="skills__grid main-techs">
+          <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+          <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+          <div class="skill-icon">Dart</div>
+          <div class="skill-icon">Fb</div>
+          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+
+        </div>
+      </div>
+
+      <div class="skills__block mt-40">
+        <p class="subtitle">Outras techs com que já realizei projetos</p>
+        <div class="skills__grid other-techs">
+          <div class="skill-icon"><i class="fa-brands fa-bootstrap"></i></div>
+          <div class="skill-icon"><i class="fa-brands fa-angular"></i></div>
+          <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+          <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+          <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <div class="skill-icon">C#</div>
+          <div class="skill-icon"><i class="fa-brands fa-figma"></i></div>
+          
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="carreira" class="career container">
+      <div class="section-header center">
+        <span class="badge">Carreira</span>
+        <h2>Trajetória até aqui</h2>
+      </div>
+
+      <div class="career__container">
+        <div class="career__column">
+          <div class="career__header">
+            <h3>Área profissional</h3>
+            <p>2018 | Atualmente</p>
+          </div>
+          
+          <div class="career__item">
+            <h4>Desenvolvedor Front-end e Back-end na Hembra</h4>
+            <p>Desenvolvimento de aplicativos e sistemas para e-commerce e getão de estoque, estão sendo usados o framework Flutter e o banco de dados Firebase.</p>
+            <div class="career__meta">
+              <span class="tag-period">3 anos</span>
+              <span class="tag-date">maio/2023 · Atualmente</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Desenvolvedor Front-end na Sr Didática</h4>
+            <p>Desenvolvimento de aplicativos para controle de presença, foram usados o framework Flutter e aplicações em arquivos .Json.</p>
+            <div class="career__meta">
+              <span class="tag-period">1 ano e 6 meses</span>
+              <span class="tag-date">Jan/2021 · julho/2022</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Estagiario de TI na Defensoria Pública MA</h4>
+            <p>Além das atribuições de suporte foi desenvolvido em Python um sistema de chat Bot no Telegram.</p>
+            <div class="career__meta">
+              <span class="tag-period">8 meses</span>
+              <span class="tag-date">julho/2019 · mar/2020</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Desenvolvedor Front-end e Back-end na Adsum</h4>
+            <p>Desenvolvimento de aplicativos e sistemas para e-commerce, sistema de entrega, sistema de gestão e outros. Eram ultilizados o framework Angular, javaScript, Python, C# e referente aos bancos de dados eram ultilizados o oracle, MySQL e Firebase.</p>
+            <div class="career__meta">
+              <span class="tag-period">8 meses</span>
+              <span class="tag-date">julho/2018 · mar/2019</span>
+            </div>
+          </div>
+          
+
+        </div>
+
+        <div class="career__column">
+          <div class="career__header">
+            <h3>Acadêmica</h3>
+            <p>2014 | 2026</p>
+          </div>
+
+          <div class="career__item">
+            <h4>Fundamentos de Linguagem Python do Básico a Aplicações de IA</h4>
+            <p>Curso disponibilizado pela plataforma Data Science para aprofundamento na linguagem Python e integração com IA.</p>
+            <div class="career__meta">
+              <span class="tag-period">7 meses</span>
+              <span class="tag-date">Jul/2025 · Fev/2026</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Fundamentos de Linguagem Python Para Análise de Dados e Machine Learning</h4>
+            <p>Curso disponibilizado pela plataforma Data Science para aprofundamento na linguagem Python e integração com IA.</p>
+            <div class="career__meta">
+              <span class="tag-period">11 meses</span>
+              <span class="tag-date">Jan/2025 · Dez/2025</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Inglês - Reading and Listening intermediate</h4>
+            <p>No segundo semestre de 2025 pude testar meu nível de inglês (nível intermediario) com uma prova do EF SET para English Certificate, obtendo um resultado intermediário com resultado 47 de 100, ficando assim na categoria B1 intermediate.</p>
+            <div class="career__meta">
+              <span class="tag-period">1 hora</span>
+              <span class="tag-date">14 de Agosto de 2025</span>
+            </div>
+          </div>
+
+          <div class="career__item">
+            <h4>Pós-graduado, Segurança da Informação</h4>
+            <p>Pós-Graduado pela faculdade Focus no curso de Ciências da Computação.</p>
+            <div class="career__meta">
+              <span class="tag-period">1 anos</span>
+              <span class="tag-date">Jan/2022 · Jan/2023</span>
+            </div>
+          </div>
+         
+          <div class="career__item">
+            <h4>Superior, Ciências da Computação</h4>
+            <p>Graduado pela faculdade Pitágoras de São Luis do Maranão no curso de Ciências da Computação.</p>
+            <div class="career__meta">
+              <span class="tag-period">4 anos</span>
+              <span class="tag-date">Jan/2014 · Dez/2017</span>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    
+  </main>
+
+  <footer id="contato" class="footer">
+    <div class="container footer__container">
+      <div class="footer__cta">
+        <span class="badge">Contatos</span>
+        <h2>Vamos conversar!</h2>
+        <div class="footer__buttons">
+            <a href="https://t.me/clrbatista#" class="btn-outline"><i class="fa-brands fa-telegram"></i> Vamos conversar</a>
+            <a href="mailto:calurb.dev@gmail.com" class="btn-link"><i class="fa-solid fa-envelope"></i>calurb.dev@gmail.com</a>
+        </div>
+        <br>
+            
+        <br>
+        <div>
+           <a href="#home"  style="display: flex; justify-content: center; align-items: center;" class="back-to-top">Voltar ao topo <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+
+      </div>
+
+
+      <div class="footer__bottom">
+        <p>Copyright Caio Batista | 2026</p>
+        
+        <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/caio-lucas-batista/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/calurbdev"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
