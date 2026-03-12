@@ -64,33 +64,6 @@ ul { list-style: none; }
   display: inline-block;
   margin-bottom: 1rem;
 }
-.btn-project {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-
-  margin-top: 16px;
-  padding: 10px 16px;
-
-  background: #7c3aed;
-  color: #fff;
-
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-
-  transition: 0.3s;
-}
-
-.btn-project:hover {
-  background: #6d28d9;
-  transform: translateY(-2px);
-}
-
-.btn-project svg {
-  width: 18px;
-  height: 18px;
-}
 .btn-outline {
   background: transparent;
   border: 1px solid var(--border-color);
@@ -294,4 +267,5 @@ ul { list-style: none; }
   .project-grid { grid-template-columns: 1fr; }
 
 }
+
 
